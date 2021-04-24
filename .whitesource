@@ -15,7 +15,7 @@
   },
   "remediateSettings": {
     "enableRenovate": "true",
-    "extends": ["github>whitesource/merge-confidence:beta"],
+    "extends": ["github>whitesource/merge-confidence:beta",
       ":separateMajorReleases",
       ":combinePatchMinorReleases",
       ":ignoreUnstable",
