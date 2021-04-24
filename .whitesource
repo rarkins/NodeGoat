@@ -1,6 +1,6 @@
 {
   "scanSettings": {
-    "configMode": "LOCAL",
+    "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
     "baseBranches": [],
@@ -15,7 +15,7 @@
   },
   "remediateSettings": {
     "enableRenovate": "true",
-    "extends": [
+    "extends": ["github>whitesource/merge-confidence:beta"],
       ":separateMajorReleases",
       ":combinePatchMinorReleases",
       ":ignoreUnstable",
